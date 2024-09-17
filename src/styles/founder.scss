@@ -1,0 +1,33 @@
+@import "color";
+
+.founder {
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(20, 20, 20);
+  
+    > div {
+      height: 100%;
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      width: 50%;
+      text-align: center;
+      margin: auto;
+  
+      > img {
+        border-radius: 100%;
+        // margin-left: 95em;
+      }
+  
+      > p {
+        letter-spacing: 3px;
+        font-size: 0.8rem;
+        font-family: cursive;
+        line-height: 200%;
+        // margin-left: 25rem;
+        
+      }
+    }
+  }
